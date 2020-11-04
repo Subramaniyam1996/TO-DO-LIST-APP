@@ -47,7 +47,7 @@ public class Main {
 				"\n Press 3 : To modify item from Todo"+
 				"\n Press 4 : To remove item from Todo"+
 				"\n Press 5 : To search an item from Todo"+
-				"\n Press 6 : To exit the app");
+				"\n Press 6 : To exit the application");
 	}
 	public static void addItem() {
 		System.out.println("Enter the item to be added in todo list");
