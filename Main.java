@@ -9,7 +9,8 @@ public class Main {
 		int command = 0;
 		boolean exit = false;
 		printCommand();
-		while (!exit) {
+		while (!exit) 
+		{
 			System.out.println("Enter your command/choices:");
 			command= scan.nextInt();
 			scan.nextLine();
@@ -31,11 +32,12 @@ public class Main {
 				break;
 			case 5:
 			searchItem();
-			break;
+			    break;
 			case 6:
 				exit= true;
-				default:
-					System.out.println("please pick only from given commands");
+				break;
+			default:
+				System.out.println("please pick only from given commands");
 			}
 		}
 	}
@@ -75,10 +77,5 @@ public class Main {
 			}else {
 				System.out.println(searchItem + "was found in your list");
 			}
-			
-			
-			
-			
 		}
-
-}
+	}
