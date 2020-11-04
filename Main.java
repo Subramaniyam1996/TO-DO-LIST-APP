@@ -34,6 +34,7 @@ public class Main {
 			break;
 			case 6:
 				exit= true;
+				break;	
 				default:
 					System.out.println("please pick only from given commands");
 			}
